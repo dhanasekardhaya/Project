@@ -1,24 +1,16 @@
-let output = document.getElementById('box');
-
-function display(num){
-    output.value += num;
-    console.log(output.value);
+let result = document.getElementById('box');
+display = (num) => {
+    result.value += num;
 }
 
 function equal(){
-    try{
-        output.value = eval(output.value);
-    }
-    catch{
-        output.value = "Error";
-    }
-    
-}
+    let out = Array.from(result.value);
+    console.log(out);
+    let mm = out.map = (value) =>{
+        console.log(value);
 
-function remove(){
-    output.value = "";
-}
+    }
+    console.log(mm());
 
-function del(){
-    output.value = output.value.slice(0, -1);
+
 }
