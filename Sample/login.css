@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height:100vh;
+    width: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC1-OYok2aByZNPcjns_ZWUaazMCvf7nuM5g&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    padding:10px;
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    height:200px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label{
+    color:black;
+}
+
+input{
+    margin: 20px;
+    width:50%;
+    height: 25px;
+    border-radius: 0px 10px 0px 3px;
+}
+
+button{
+    border-radius: 0px 10px 0px 3px;
+    padding:5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: green;
+}
+
+/*** Dashboard ****/
+

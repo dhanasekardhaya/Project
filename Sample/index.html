@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Mark added</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="rollNumber">Roll No:</label>
+                        <input type="text" name="rollNumber" id="rollNumber">
+                    </div>
+                    <div>
+                        <label for="studentName">Student Name</label>
+                        <input type="text" name="studentName" id="studentName">
+                    </div>
+                    <div>
+                        <label for="DOB">DOB</label>
+                        <input type="date" name="DOB" id="DOB">
+                    </div>
+                    <div>
+                        <label for="Tamil">Tamil</label>
+                        <input type="number" name="tamilMark" id="tamilMark">
+                    </div>
+                    <div>
+                        <label for="English">English</label>
+                        <input type="number" name="englishMark" id="englishMark">
+                    </div>
+                    <div>
+                        <label for="Maths">Maths</label>
+                        <input type="number" name="mathsMark" id="mathsMark">
+                    </div>
+                    <div>
+                        <label for="Science">Science</label>
+                        <input type="number" name="scienceMark" id="scienceMark">
+                    </div>
+                    <div>
+                        <label for="Science">Social</label>
+                        <input type="number" name="socialMark" id="socialMark">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                        
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>DOB</th>
+                                <th>Tamil</th>
+                                <th>English</th>
+                                <th>Maths</th>
+                                <th>Science</th>
+                                <th>Social</th>
+                                <th>Total</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                        
+                    </table>
+                    <button onclick="back()">Back</button>
+                </td>
+            </td>
+        </tr>
+        
+    </table>
+    
+    <script type="text/javascript" src="test.js"></script>
+</body>
+</html>
