@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Edu+SA+Beginner&family=Edu+TAS+Beginner:wght@400;500&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wraper{
+    width: 95%;
+    margin: 0 auto;
+    position:sticky;
+    top:0px;
+}
+
+#search-container{
+    margin: 1em auto;
+}
+
+#search-container input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid blue;
+    padding: 1em 0.3em;
+}
+
+#search-container button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: pink;
+    color: black;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}
+
+.button-value{
+    border: 2px solid blueviolet;
+    padding: 1em 2.2em;
+    border-radius: 3em;
+    color: red;
+    cursor: pointer;
+}
+
+.active{
+    background-color:red;
+    color: green;
+}
+
+#product{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card{
+   width: 23%;
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.images{
+    width: 80%;
+}
